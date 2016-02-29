@@ -2714,9 +2714,10 @@
 				text-transform: none !important;
 			}
 
+/* тут цвет стрелочек */
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
-				color: #fff;
+				color: #49bf9d;
 				font-size: 2.5em;
 				height: 1em;
 				line-height: 1em;
@@ -2745,6 +2746,7 @@
 				left: 0;
 			}
 
+/* тут цвет крестика в галерее картинок */
 		.poptrox-popup .closer {
 			text-decoration: none;
 			-moz-transition: opacity 0.2s ease-in-out;
@@ -2752,7 +2754,7 @@
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			color: #fff;
+			color: #49bf9d;
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
@@ -2773,13 +2775,14 @@
 				text-transform: none !important;
 			}
 
+/* тут цвет rgba кружочка крестика галереи картинок */
 			.poptrox-popup .closer:before {
 				-moz-box-sizing: content-box;
 				-webkit-box-sizing: content-box;
 				-ms-box-sizing: content-box;
 				box-sizing: content-box;
 				border-radius: 100%;
-				border: solid 3px rgba(255, 255, 255, 0.5);
+				border: solid 3px rgba(73, 191, 157, 0.5);
 				content: '\f00d';
 				display: block;
 				font-size: 1em;
